@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Backward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Backward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Forward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Forward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Left.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Left.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Paladin.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Paladin.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogBackward.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogBackward.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogForward.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogForward.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/leftStrafe.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/leftStrafe.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/rightStrafe.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/rightStrafe.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +86,7 @@
       <updated>1729607382969</updated>
       <workItem from="1729607384766" duration="6000" />
       <workItem from="1729688740702" duration="8490000" />
-      <workItem from="1729709096499" duration="6654000" />
+      <workItem from="1729709096499" duration="6801000" />
     </task>
     <servers />
   </component>
