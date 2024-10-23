@@ -5,170 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Mace.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Mace.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Materials/Mat_Armor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Materials/Mat_Armor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Bags.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Bags.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Body_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Body_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Body_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Body_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Boots.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Boots.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Bracers.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Bracers.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Gloves.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Gloves.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Hair.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Hair.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Head.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Head.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Helmet.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Helmet.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Legs_Separate.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Legs_Separate.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Pants.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Pants.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Torso.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Torso.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Tunic.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/Tunic.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/shorts.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Separated_mesh/shorts.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Shield.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Shield.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Base mesh/Skin_3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Fantasy knight.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Fantasy knight.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Armor_4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Mace.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Mace.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Shield.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Materials/Mat_Shield.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Mace.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Mace.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Bags.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Bags.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Body_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Body_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Body_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Body_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Boots.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Boots.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Bracers.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Bracers.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Gloves.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Gloves.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Hair.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Hair.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Head.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Head.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Helmet.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Helmet.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Legs_Separate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Legs_Separate.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Pants.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Pants.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Torso.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Torso.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Tunic.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/Tunic.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/shorts.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Separated_mesh/shorts.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Shield.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Shield.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_1_4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Prefab/Skin_3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Standard_Two_Sided.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Standard_Two_Sided.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_AO.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_AO.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_4.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Base_color_4.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_MetallicSmoothness_2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_MetallicSmoothness_2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Armor/T_Armor_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_AO.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_AO.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_Base_color.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_Base_color.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Body/T_Body_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Hair.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Hair/T_Hair_Alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Hair/T_Hair_Alpha.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Hair/T_Hair_Normals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Hair/T_Hair_Normals.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_AO.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_AO.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_Base_color.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_Base_color.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Mace/T_Mace_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_AO.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_AO.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_Base_color.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_Base_color.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fantasy knight/Texture/Shield/T_Shield_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/StandingIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/StandingIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Scripts/PlayerController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerLogics/Character/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -247,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729607382969</updated>
       <workItem from="1729607384766" duration="6000" />
-      <workItem from="1729688740702" duration="643000" />
+      <workItem from="1729688740702" duration="3542000" />
     </task>
     <servers />
   </component>
