@@ -11,11 +11,11 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
 
     // Movement animations
-    private readonly string moveForwardAnimation = "MoveForward";
-    private readonly string moveBackwardAnimation = "MoveBackward";
-    private readonly string leftStrafeAnimation = "LeftStrafe";
-    private readonly string rightStrafeAnimation = "RightStrafe";
-    private readonly string idleAnimation = "Idle";
+    private readonly string moveForwardAnimation = "moveForward";
+    private readonly string moveBackwardAnimation = "moveBackward";
+    private readonly string leftStrafeAnimation = "moveLeft";
+    private readonly string rightStrafeAnimation = "moveRight";
+    
 
     private CharacterController characterController;
 
@@ -81,31 +81,40 @@ public class PlayerController : MonoBehaviour
 
     private void PlayMovementAnimations(float horizontalInput, float verticalInput)
     {
+        
         if (verticalInput > 0)
         {
             // Moving forward
-            animator.Play(moveForwardAnimation);
+            animator.SetBool(moveForwardAnimation, true);
+            
+            
         }
         else if (verticalInput < 0)
         {
             // Moving backward
-            animator.Play(moveBackwardAnimation);
+            animator.SetBool(moveBackwardAnimation, true);
+            
         }
         else if (horizontalInput < 0)
         {
             // Moving left (A key)
-            animator.Play(leftStrafeAnimation);
+            animator.SetBool(leftStrafeAnimation, true);
+            
         }
         else if (horizontalInput > 0)
         {
             // Moving right (D key)
-            animator.Play(rightStrafeAnimation);
+            animator.SetBool(rightStrafeAnimation, true);
+            
         }
         else
         {
-            // Idle if no input
-            animator.Play(idleAnimation);
+            animator.SetBool(moveForwardAnimation, false);
+            animator.SetBool(moveBackwardAnimation, false);
+            animator.SetBool(leftStrafeAnimation, false);
+            animator.SetBool(rightStrafeAnimation, false);
         }
+        
     }
 
     private void HandleVRMovement()

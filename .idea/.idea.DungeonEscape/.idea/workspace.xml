@@ -6,7 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Paladin WProp J Nordstrom.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Paladin WProp J Nordstrom.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Backward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Backward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Forward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Forward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Left.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Left.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Jog Strafe Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Paladin.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/Paladin.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogBackward.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogBackward.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogForward.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/jogForward.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/leftStrafe.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/leftStrafe.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/rightStrafe.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Character/Animations/Locomotion/rightStrafe.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
@@ -31,19 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe" />
@@ -91,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729607382969</updated>
       <workItem from="1729607384766" duration="6000" />
-      <workItem from="1729688740702" duration="7759000" />
+      <workItem from="1729688740702" duration="8490000" />
+      <workItem from="1729709096499" duration="6654000" />
     </task>
     <servers />
   </component>
