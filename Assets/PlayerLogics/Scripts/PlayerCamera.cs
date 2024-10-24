@@ -43,6 +43,7 @@ public class PlayerCamera : MonoBehaviour
     {
         // Check if a VR device is currently active
         isVRActive = XRSettings.isDeviceActive;
+        Debug.Log(isVRActive);
     }
 
     private void FollowTarget()

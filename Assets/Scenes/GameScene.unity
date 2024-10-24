@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 35354562}
   - component: {fileID: 35354561}
   - component: {fileID: 35354565}
+  - component: {fileID: 35354566}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -193,7 +194,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35354560}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &35354563
 Camera:
   m_ObjectHideFlags: 0
@@ -282,13 +283,53 @@ MonoBehaviour:
     m_Action:
       m_Name: Look VR Input
       m_Type: 0
-      m_ExpectedControlType: 
+      m_ExpectedControlType: Stick
       m_Id: 946359e0-7911-4068-b1a3-5436bec745b8
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings: []
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 29ee70c9-4693-4d33-ad38-0400a773ead6
+        m_Path: 
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Look VR Input
+        m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+--- !u!114 &35354566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35354560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 1c7124f54cb29d94c96ca55b8c336098,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 35354563}
 --- !u!1001 &89461528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,7 +666,7 @@ Transform:
   m_GameObject: {fileID: 891337750}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.04, z: 0}
+  m_LocalPosition: {x: 0, y: -0.57, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -642,7 +683,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4b4cd512a59063646b7d478d07a916ec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4b4cd512a59063646b7d478d07a916ec,
         type: 3}
