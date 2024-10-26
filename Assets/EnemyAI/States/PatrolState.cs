@@ -14,11 +14,15 @@ public class PatrolState : State
 
     public ChaseState chaseState;
     private bool canSeeThePlayer;
+    
+    private Animator animator;
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
 
     private void Start()
     {
         // Get reference to the NPC's main transform
         grandparentTransform = transform.parent.parent;
+        animator = transform.parent.parent.GetComponent<Animator>(); //Access grandparent animator component
     }
 
     public override State RunCurrentState()
@@ -39,10 +43,10 @@ public class PatrolState : State
     private void Patrol()
     {
         if (positions.Length == 0) return; // Exit if there are no positions set
-
+        
         // Move the NPC's main object towards the target position
         grandparentTransform.position = Vector3.MoveTowards(grandparentTransform.position, positions[currentIndex], speed * Time.deltaTime);
-
+        animator.SetBool(IsWalking, true);
         // Check if NPC has reached the target position
         if (Vector3.Distance(grandparentTransform.position, positions[currentIndex]) < 0.1f)
         {

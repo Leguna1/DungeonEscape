@@ -6,6 +6,7 @@ public class IdleState : State
 {
     public PatrolState patrolState;
     public bool hasPatrolPoints;
+    
     public override State RunCurrentState()
     {
         if (hasPatrolPoints)
@@ -15,6 +16,7 @@ public class IdleState : State
         else
         {
             return this;
+            
         }
         
     }
