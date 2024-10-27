@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +19,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheLab/RoomGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TileableBricksWall/DynamicCubeMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XRLoggingUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XROrigin.cs" root0="SKIP_HIGHLIGHTING" />
@@ -104,6 +103,7 @@
       <workItem from="1729885705992" duration="18203000" />
       <workItem from="1729947448377" duration="27129000" />
       <workItem from="1730004864029" duration="1044000" />
+      <workItem from="1730049968482" duration="3675000" />
     </task>
     <servers />
   </component>
