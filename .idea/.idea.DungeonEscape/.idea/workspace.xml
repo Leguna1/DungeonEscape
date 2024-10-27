@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/animation/DungeonSkeleton_demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/animation/DungeonSkeleton_demo.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/AI_Behavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/AI_Behavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,8 @@
       <workItem from="1729809754179" duration="3127000" />
       <workItem from="1729862318842" duration="3831000" />
       <workItem from="1729885705992" duration="18203000" />
-      <workItem from="1729947448377" duration="26792000" />
+      <workItem from="1729947448377" duration="27129000" />
+      <workItem from="1730004864029" duration="1044000" />
     </task>
     <servers />
   </component>

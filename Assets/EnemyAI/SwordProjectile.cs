@@ -5,7 +5,8 @@ public class SwordProjectile : MonoBehaviour
     public float speed = 10f;
     public float lifetime = 2f;
     private Vector3 moveDirection;
-
+    
+    
     private void Start()
     {
         Destroy(gameObject, lifetime); // Destroy projectile after a set lifetime
