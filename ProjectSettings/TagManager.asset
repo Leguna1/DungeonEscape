@@ -7,6 +7,7 @@ TagManager:
   - Visible
   - Shield
   - Sword
+  - EnemyAI
   layers:
   - Default
   - TransparentFX

@@ -31,5 +31,11 @@ public class Sword : MonoBehaviour
             health.TakeDamage(damage);
             Debug.Log($"Dealt {damage} damage to {other.gameObject.name}.");
         }
+
+        if (other.CompareTag("EnemyAI") && health !=null)
+        {
+            health.TakeDamage(damage);
+            Debug.Log($"Dealt {damage} damage to {other.gameObject.name}.");
+        }
     }
 }
