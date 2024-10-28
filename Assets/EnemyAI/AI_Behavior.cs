@@ -11,11 +11,7 @@ public class AI_Behavior : MonoBehaviour
     public float moveSpeed = 1.5f;
     public float attackRange = 2.0f;
     public string acquireTarget;
-
-    public GameObject swordProjectilePrefab; // Assign the projectile prefab here
-    public Transform projectileSpawnPoint;   // Assign the shoulder empty object here for spawn location
-
-    public float projectileCooldown = 2.0f;  // Cooldown duration between projectiles
+    
     private float currentCooldown = 0.5f;    // Tracks remaining time for cooldown
 
     private Transform targetTransform;
@@ -91,29 +87,8 @@ public class AI_Behavior : MonoBehaviour
         // Only trigger the attack animation if within range
         animator.SetBool(IsWalking, false);
         animator.SetBool(IsAttacking, true);
-
-        // Fire projectile only if cooldown is finished
-        if (currentCooldown <= 0)
-        {
-            FireProjectile();
-            currentCooldown = projectileCooldown; // Reset the cooldown
-        }
     }
-
-    private void FireProjectile()
-    {
-        if (swordProjectilePrefab != null && projectileSpawnPoint != null)
-        {
-            // Calculate the direction towards the target
-            Vector3 directionToTarget = (aiSight.objectLocation - projectileSpawnPoint.position).normalized;
-
-            // Instantiate the projectile and set its direction
-            GameObject projectile = Instantiate(swordProjectilePrefab, projectileSpawnPoint.position, Quaternion.LookRotation(directionToTarget));
-            SwordProjectile swordProjectile = projectile.GetComponent<SwordProjectile>();
-            swordProjectile.Initialize(directionToTarget);
-        }
-    }
-
+    
     private void StartPatrolling()
     {
         if (patrolPoints.Length == 0) return;

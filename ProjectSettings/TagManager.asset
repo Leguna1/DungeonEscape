@@ -5,12 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Visible
-  - SwordProjectile
+  - Shield
+  - Sword
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Shield
   - Water
   - UI
   - 
