@@ -13,7 +13,7 @@ public class Shield : MonoBehaviour
         {
             
             durability --;
-            Debug.Log("Shield was hit by the sword!" + durability);
+            Debug.Log("Shield durability:" + durability);
         }
     }
 

@@ -26,6 +26,6 @@ public class Health : MonoBehaviour
     private void Die()
     {
         Debug.Log($"{gameObject.name} has died.");
-        // Add death logic here (e.g., play animation, disable object)
+        // Add death logic, disable movements and RespawnPlayer();
     }
 }

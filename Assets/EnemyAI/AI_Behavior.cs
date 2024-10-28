@@ -12,12 +12,17 @@ public class AI_Behavior : MonoBehaviour
     public float attackRange = 2.0f;
     public string acquireTarget;
     
-    private float currentCooldown = 0.5f;    // Tracks remaining time for cooldown
+    public float currentCooldown = 0.5f; // Start with no cooldown
+    public float attackCooldownDuration;
 
     private Transform targetTransform;
     public Vector3[] patrolPoints;
     private int currentIndex = 0;
     private bool movingForward = true;
+    
+    public float attackDuration = 1.0f; // Duration for the attack animation to finish
+    private float attackTimer = 0f; // Tracks attack animation time
+    private bool isAttacking = false; // Tracks if AI is currently in an attack
 
     private void Start()
     {
@@ -27,37 +32,49 @@ public class AI_Behavior : MonoBehaviour
 
     private void Update()
     {
-        
-
         BehaviorManagement();
     }
 
     private void BehaviorManagement()
     {
-        // Check if a target is detected
+        if (isAttacking)
+        {
+            attackTimer -= Time.deltaTime;
+            if (attackTimer <= 0f) // Attack duration has finished
+            {
+                isAttacking = false;
+                currentCooldown = attackCooldownDuration; // Reset cooldown after attack
+                animator.SetBool(IsAttacking, false); // Stop attacking animation
+            }
+            return; // Exit if currently attacking to avoid other actions
+        }
         if (aiSight.objectID == acquireTarget)
         {
-            targetTransform = aiSight.transform; // Set the target if the acquireTarget is detected
+            targetTransform = aiSight.transform; 
             float distanceToTarget = Vector3.Distance(transform.position, aiSight.objectLocation);
-
+            
+            // Check if within attack range
             if (distanceToTarget <= attackRange)
             {
                 // Update cooldown timer
                 if (currentCooldown > 0)
                 {
                     currentCooldown -= Time.deltaTime;
+                    Idle(); // Stop all animations if within range but cooldown active
                 }
-                Attack();
+                else
+                {
+                    Attack(); // Attack if within range and cooldown is zero
+                }
             }
             else
             {
-                MoveToTarget();
+                MoveToTarget(); // Move towards target if out of range
             }
         }
         else
         {
-            // If no target, switch to patrolling
-            StartPatrolling();
+            StartPatrolling(); // Patrol if no target detected
         }
     }
 
@@ -71,9 +88,8 @@ public class AI_Behavior : MonoBehaviour
     {
         if (targetTransform != null)
         {
-            // Move towards the target
             transform.position = Vector3.MoveTowards(transform.position, aiSight.objectLocation, moveSpeed * Time.deltaTime);
-            animator.SetBool(IsWalking, true); // Play walking animation while moving to the target
+            animator.SetBool(IsWalking, true); // Set walking animation while moving to the target
             animator.SetBool(IsAttacking, false);
         }
         else
@@ -84,24 +100,27 @@ public class AI_Behavior : MonoBehaviour
 
     private void Attack()
     {
-        // Only trigger the attack animation if within range
-        animator.SetBool(IsWalking, false);
-        animator.SetBool(IsAttacking, true);
+        if (!isAttacking) // Start attack only if not already attacking
+        {
+            animator.SetBool(IsWalking, false);
+            animator.SetBool(IsAttacking, true);
+            isAttacking = true;
+            attackTimer = attackDuration; // Start the attack timer
+        }
     }
     
     private void StartPatrolling()
     {
         if (patrolPoints.Length == 0) return;
 
-        // Move towards the current patrol point
         transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentIndex], moveSpeed * Time.deltaTime);
-        animator.SetBool(IsWalking, true); // Play walking animation while patrolling
+        animator.SetBool(IsWalking, true); // Walking animation while patrolling
         animator.SetBool(IsAttacking, false);
 
-        // Check if the AI has reached the current patrol point
+        // Check if AI has reached the patrol point
         if (Vector3.Distance(transform.position, patrolPoints[currentIndex]) < 0.1f)
         {
-            // Determine the next patrol point or direction
+            // Determine next patrol point or reverse direction
             if (movingForward)
             {
                 if (currentIndex < patrolPoints.Length - 1)

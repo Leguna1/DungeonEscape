@@ -7,12 +7,10 @@
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/AI_Behavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/AI_Behavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyAI/SwordProjectilePrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/DmgDealer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/DmgDealer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Shield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Shield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Sword.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +23,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Shield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheLab/RoomGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TileableBricksWall/DynamicCubeMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@69.0.0/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.11/Editor/MaterialUpgrader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -113,7 +113,9 @@
       <workItem from="1729885705992" duration="18203000" />
       <workItem from="1729947448377" duration="27129000" />
       <workItem from="1730004864029" duration="1044000" />
-      <workItem from="1730049968482" duration="11130000" />
+      <workItem from="1730049968482" duration="11674000" />
+      <workItem from="1730102252168" duration="7634000" />
+      <workItem from="1730110547113" duration="296000" />
     </task>
     <servers />
   </component>
