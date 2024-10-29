@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="" />
+    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Old_chest/Prefab/Old_chest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Old_chest/Prefab/Old_chest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/TestObject.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/TestObject.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JakobLevelScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JakobLevelScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Blade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Blade.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Crosses.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Crosses.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_arc.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_arc.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_spiral.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_spiral.mat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +35,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChestAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/HealthbarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyAI/SwordProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Old_chest/TreasureSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Shield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TheLab/RoomGenerator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -110,6 +132,8 @@
       <workItem from="1730117237943" duration="69000" />
       <workItem from="1730119098341" duration="3000" />
       <workItem from="1730123207164" duration="4305000" />
+      <workItem from="1730213017764" duration="2957000" />
+      <workItem from="1730224854835" duration="9418000" />
     </task>
     <servers />
   </component>

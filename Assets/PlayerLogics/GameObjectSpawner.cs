@@ -10,7 +10,7 @@ public class GameObjectSpawner : MonoBehaviour
 
     private Dictionary<Vector3, GameObject> spawnedObjects = new Dictionary<Vector3, GameObject>();
     private Dictionary<Vector3, float> respawnTimers = new Dictionary<Vector3, float>();
-
+    
     void Start()
     {
         foreach (var spawnPoint in spawnPoints)
@@ -47,6 +47,6 @@ public class GameObjectSpawner : MonoBehaviour
     {
         GameObject spawnedObject = Instantiate(gameObjectPrefab, spawnPoint, Quaternion.identity);
         spawnedObjects[spawnPoint] = spawnedObject;
-        respawnTimers[spawnPoint] = 0; // Ensure the timer is reset for this spawn point
+        respawnTimers[spawnPoint] = 0; 
     }
 }
