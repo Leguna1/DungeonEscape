@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,7 @@
       <workItem from="1730110547113" duration="1183000" />
       <workItem from="1730117237943" duration="69000" />
       <workItem from="1730119098341" duration="3000" />
-      <workItem from="1730123207164" duration="3708000" />
+      <workItem from="1730123207164" duration="4305000" />
     </task>
     <servers />
   </component>
