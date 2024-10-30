@@ -6,24 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd6ef1d-47c9-469d-a1e6-71bfae1e74be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyAIPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Old_chest/Prefab/Old_chest.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Old_chest/Prefab/Old_chest.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/GameObjectSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/PlayerPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerLogics/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/TestObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerLogics/TestObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JakobLevelScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JakobLevelScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Blade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Blade.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Crosses.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Crosses.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_arc.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_arc.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_spiral.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sword/Sword_2/Materials/Handle_spiral.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChestAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChestAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Old_chest/Prefab/CustomOld_chest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Old_chest/Prefab/CustomOld_chest.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DungeonScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DungeonScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XRLoggingUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XROrigin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.6.3/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.6.3/Runtime/Locomotion/Continuous/ActionBasedContinuousMoveProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -133,7 +119,8 @@
       <workItem from="1730119098341" duration="3000" />
       <workItem from="1730123207164" duration="4305000" />
       <workItem from="1730213017764" duration="2957000" />
-      <workItem from="1730224854835" duration="9418000" />
+      <workItem from="1730224854835" duration="10166000" />
+      <workItem from="1730277558663" duration="1772000" />
     </task>
     <servers />
   </component>

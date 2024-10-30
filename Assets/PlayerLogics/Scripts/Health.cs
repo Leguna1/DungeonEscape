@@ -11,18 +11,16 @@ public class Health : MonoBehaviour
     private float lerpHealthbarSpeed = 5.0f;
 
     // Respawn settings
-    public Vector3 respawnLocation; // Set this in the inspector or code
-    public float respawnDelay = 2.0f; // Time before the player respawns
-
-    // Reference to movement component
-    private CharacterControllerDriver playerMovement; // Assume a PlayerMovement script handles movement
+    public Vector3 respawnLocation;
+    public float respawnDelay = 2.0f; 
+    
+    private CharacterControllerDriver playerMovement; 
 
     private void Start()
     {
         CurrentHealth = maxHealth;
         healthSlider.value = maxHealth;
-
-        // Get the player movement component if this is the player
+        
         if (CompareTag("Player"))
         {
             playerMovement = GetComponent<CharacterControllerDriver>();
@@ -56,32 +54,31 @@ public class Health : MonoBehaviour
 
         if (CompareTag("Player"))
         {
-            // Disable player movement
+           
             if (playerMovement != null)
             {
                 playerMovement.enabled = false;
             }
 
-            // Start respawn process after delay
+            
             Invoke(nameof(RespawnPlayer), respawnDelay);
         }
         else
         {
-            // Destroy non-player objects
             Destroy(gameObject);
         }
     }
 
     private void RespawnPlayer()
     {
-        // Reset health
+        
         CurrentHealth = maxHealth;
         healthSlider.value = maxHealth;
 
-        // Move the player to the respawn location
+        
         transform.position = respawnLocation;
 
-        // Re-enable player movement
+        
         if (playerMovement != null)
         {
             playerMovement.enabled = true;
